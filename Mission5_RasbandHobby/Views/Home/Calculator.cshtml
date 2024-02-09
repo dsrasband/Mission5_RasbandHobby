@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Coaching";
+}
+
+<div class="text-center">
+    <h1>Coaching</h1>
+    <p>Learn the skills you need to love skiing like I do!</p>
+    <br/>
+    <p>I offer private coaching services to skiers of all skill levels!</p>
+    <p>See below for a price estimate based on how many hours of coaching you would like!</p>
+    <br />
+    <form>
+        <label>Hours of coaching requested:  </label>
+        <input id="hours" />
+        <br /><br />
+        <label>Fee per Hour:  </label>
+        <input type="number" readonly value="25.00" id="fee">
+        <br /><br />
+        <input type="button" value="Calculate Estimate" id="calculate" />
+        <br /><br />
+        <label>Total Cost:  </label>
+        <input type="number" id="total" readonly/>
+    </form>
+    <br /><br />
+    <p>Come ski with me!</p>
+    <img src="~/img/skiwithdad.PNG" alt="Skiers" style="display: block; margin: 0 auto; width: 50%; height: auto;">
+</div>
+
